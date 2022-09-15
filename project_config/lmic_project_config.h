@@ -9,7 +9,7 @@
 #define CFG_sx1276_radio 1
 //#define LMIC_USE_INTERRUPTS
 
-#define LMIC_DEBUG_LEVEL 1
+#define LMIC_DEBUG_LEVEL 0
 
 #define LMIC_ENABLE_DeviceTimeReq 1
 
