@@ -13,3 +13,5 @@
 
 #define LMIC_ENABLE_DeviceTimeReq 1
 
+#define hal_init LMICHAL_init
+
