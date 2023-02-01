@@ -29,11 +29,11 @@ class HalConfiguration_Catena4420_t : public HalConfiguration_t
 public:
 	enum DIGITAL_PINS : uint8_t
 		{
-		PIN_SX1276_NSS = 6,
-		PIN_SX1276_NRESET = 5,
-		PIN_SX1276_DIO0 = 12,    // pin assignment for DIO0 (aka IRQ)
-		PIN_SX1276_DIO1 = 11,
-		PIN_SX1276_DIO2 = 10,
+		PIN_SX1276_NSS = 15,
+		PIN_SX1276_NRESET = 2,
+		PIN_SX1276_DIO0 = 32,    // pin assignment for DIO0 (aka IRQ)
+		PIN_SX1276_DIO1 = 33,
+		PIN_SX1276_DIO2 = HalPinmap_t::UNUSED_PIN,
 		PIN_SX1276_ANT_SWITCH_RX = HalPinmap_t::UNUSED_PIN,
 		PIN_SX1276_ANT_SWITCH_TX_BOOST = HalPinmap_t::UNUSED_PIN,
 		PIN_SX1276_ANT_SWITCH_TX_RFO = HalPinmap_t::UNUSED_PIN,
